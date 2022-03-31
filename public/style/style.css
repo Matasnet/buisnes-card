@@ -1,0 +1,71 @@
+body {
+    /*background: url("../img/4web.jpg") no-repeat center center fixed; */
+    /* background: url("../img/4web-night.jpg") no-repeat center center fixed ; */
+  
+    /*  filter: brightness(0.6); */
+
+    /* background: url("../img/3web.jpg") no-repeat center center fixed;  */
+
+    background-size: cover;
+}
+
+.light {
+    background: url("../img/4web.jpg") no-repeat center center fixed;
+}
+
+.dark{   
+    background: url("../img/4web-night.jpg") no-repeat center center fixed;
+}
+
+.container {
+    margin: 60px auto;
+    padding: 30px;
+    width: 400px;
+    height: 220px;
+    border-radius:10%;
+    position: sticky;
+
+    background-color: rgb(238, 234, 234);
+    color: rgb(0, 0, 0);
+}
+
+.about {
+    text-align: right;
+}
+
+
+.buisness-card img {
+    float: left;
+    width: 35%;
+    height: 45%;
+    
+}
+
+.username, .email, .projekty {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.username span { 
+    border-bottom: 2px solid rgb(6, 10, 255);
+    padding-bottom: 4px;
+}
+
+a, a:visited, a:hover {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+
+}
+
+.email {
+    font-size: 16px;
+}
+
+
+
+.socialmedia {
+    padding-top: 15%;
+    float:right;
+}
